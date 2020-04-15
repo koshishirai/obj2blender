@@ -2,7 +2,7 @@ import os
 import bpy
 
 #path_to_obj_dir = os.path.join("絶対PATH") #Win
-#ex.path_to_obj_dir = os.path.join("C:\Users\Your Name\Desktop\obj2blender.py") #Windows
+#ex.path_to_obj_dir = os.path.join("C:\Users\Your Name\Desktop\3Dファイルの場所") #Windows
 path_to_obj_dir = bpy.path.abspath('絶対PATH') #Mac
 
 # ディレクトリ内のすべてのファイルのリストを取得します
