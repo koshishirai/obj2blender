@@ -1,7 +1,7 @@
 import os
 import bpy
 
-#path_to_fbx_dir = os.path.join("絶対PATH") #Win
+#path_to_fbx_dir = os.path.join("絶対PATH") #Windows
 #ex.path_to_fbx_dir = os.path.join("C:\Users\Your Name\Desktop\fbx2blender.py") #Windows
 
 path_to_fbx_dir = bpy.path.abspath('絶対PATH') #Mac
