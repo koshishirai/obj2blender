@@ -16,3 +16,5 @@ fbx_list = [item for item in file_list if item[-3:] == 'fbx'] # obj, fbx, vrm, e
 for item in fbx_list:
     path_to_file = os.path.join(path_to_fbx_dir, item)
     bpy.ops.import_scene.fbx(filepath = path_to_file)
+    
+# 解説 https://koshishirai.hatenablog.com/entry/blender-import
