@@ -14,5 +14,3 @@ obj_list = [item for item in file_list if item[-3:] == 'obj'] # obj, fbx, vrm, e
 for item in obj_list:
     path_to_file = os.path.join(obj_path, item)
     bpy.ops.import_scene.obj(filepath = path_to_file) ## obj, fbx, vrm, etc...
-    
-# 解説 https://koshishirai.hatenablog.com/entry/blender-import
